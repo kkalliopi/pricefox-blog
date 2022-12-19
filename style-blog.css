@@ -19,8 +19,7 @@ header{
 	padding-top: 15px;
 	height: 70px;
 	background: white;	
-	position: fixed;
-	
+	position: fixed;	
 }
 
 menu{
@@ -39,12 +38,12 @@ menu{
 	height: 49px;
 }
 
+
 main{
 	display: flex;
 	flex-direction: column;
 	height: 100%;   
-	background: #eeeef5;
-	
+	background: #eeeef5;	
 }
 
 .section-between-header-content{
@@ -59,8 +58,7 @@ main{
 	padding: 150px 100px 100px 100px;
 	color: #fff;
 	background-repeat: no-repeat;
-	positio: relative;
-	
+	positio: relative;	
 }
 
 .overlay-image-laye{	
@@ -68,8 +66,7 @@ main{
     opacity: 0.5;
 	width: 100%;
 	height: 100%;   
-	position: absolute;	
-	
+	position: absolute;		
 }
 
 .section-between-header-content h1{
@@ -177,6 +174,7 @@ footer{
 		background: white;			
         position: sticky;
 		top: 0;	
+		border-radius: 10px;
 	
 	}
 
@@ -217,5 +215,10 @@ footer{
 	.main-content{
 		padding: 0 0 0 0;
 	}
+    
+	.blog-box-styling{
+		text-align: center;
+	}
+
 
 }
