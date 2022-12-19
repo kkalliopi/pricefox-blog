@@ -127,7 +127,7 @@ main{
 
 .read-more-section{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 	border-top: 1px solid rgb(226, 226, 226);
 	display: flex;
@@ -139,8 +139,27 @@ main{
 	gap: 15px;	
 }
 
+
+.read-arrow{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	color: rgb(20, 104, 139);
+}
+
+
+
 .arrow{
-	font-size: 14px;
+	padding-top: 5px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+
+.img-comment{
+	font-size: 18px;
+	color: rgb(20, 104, 139);
 }
 
 footer{
@@ -214,11 +233,19 @@ footer{
 
 	.main-content{
 		padding: 0 0 0 0;
+		margin-bottom: 14px;
 	}
     
 	.blog-box-styling{
 		text-align: center;
 	}
 
+    .arrow{
+		padding-bottom: 10px;
+	}
+
+	.black{
+		color:black;
+	}
 
 }
